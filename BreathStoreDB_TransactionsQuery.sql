@@ -73,4 +73,5 @@ LEFT JOIN [Returns] re ON od.[Order ID] = Re.[Order ID]
 LEFT JOIN SalesPerson as sp ON od.[Region] = SP.Region
 
 
-
+-- SELECT *
+-- FROM BSTransactions
